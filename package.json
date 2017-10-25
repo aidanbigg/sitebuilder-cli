@@ -1,0 +1,21 @@
+{
+  "name": "sitebuilder-cli",
+  "version": "0.0.1",
+  "description": "The Site Builder CLI",
+  "main": "bin/configure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "load-json-file": "^3.0.0",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.7.8",
+    "write-json-file": "^2.3.0"
+  },
+  "bin": {
+    "sitebuilder-start": "bin/configure.js",
+    "sitebuilder-build": "bin/build.js"
+  }
+}
