@@ -1,0 +1,32 @@
+[
+  {
+    "name": "site_name",
+    "required": true,
+    "description": "Enter your site name. i.e. mysite.com without the .com or www.",
+    "default": "default"
+  },
+  {
+    "name": "domain",
+    "required": true,
+    "description": "Enter sites domain",
+    "default": "default.com"
+  },
+  {
+    "name": "admin_email",
+    "required": true,
+    "description": "Enter admin email address",
+    "default": "me@default.com"
+  },
+  {
+    "name": "theme",
+    "required": true,
+    "description": "Enter theme name",
+    "default": "ananke"
+  },
+  {
+    "name": "theme_repo",
+    "required": true,
+    "description": "Enter theme git repo",
+    "default": "https://github.com/budparr/gohugo-theme-ananke.git"
+  }
+]
